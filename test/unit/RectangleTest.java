@@ -6,6 +6,7 @@
 package unit;
 
 import org.junit.jupiter.api.Test;
+import rectangle.Rectangle;
 
 import static org.junit.jupiter.api.Assertions.*;
 
