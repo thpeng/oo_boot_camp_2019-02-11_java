@@ -7,6 +7,8 @@ package unit;
 
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 // Ensures Rectangle operates correctly
 class RectangleTest {
 
