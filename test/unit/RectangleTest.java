@@ -7,12 +7,10 @@ package unit;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 // Ensures Rectangle operates correctly
 class RectangleTest {
 
     @Test void area() {
-        assertEquals(24.0, new Rectangle(4.0, 6.0));
+        assertEquals(24.0, new Rectangle(4.0, 6.0).area());
     }
 }
