@@ -8,6 +8,8 @@ package unit;
 import org.junit.jupiter.api.Test;
 import probability.Chance;
 
+import java.util.*;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 // Ensures Chance operates correctly
@@ -23,5 +25,14 @@ class ChanceTest {
         assertNotEquals(LIKELY, UNLIKELY);
         assertNotEquals(LIKELY, new Object());
         assertNotEquals(LIKELY, null);
+    }
+
+    @Test void setOperations() {
+        assertTrue(new HashSet<>(Collections.singletonList(LIKELY)).contains(new Chance(0.75)));
+        assertEquals(1, new HashSet<>(Arrays.asList(LIKELY, new Chance(0.75))).size());
+    }
+
+    @Test void hash() {
+        assertEquals(LIKELY.hashCode(), new Chance(0.75).hashCode());
     }
 }
