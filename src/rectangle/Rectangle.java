@@ -11,6 +11,8 @@ public class Rectangle {
     private final double height;
 
     public Rectangle(double width, double height) {
+        if (width <= 0 || height <= 0)
+            throw new IllegalArgumentException("Each dimension must be greater than zero");
         this.width = width;
         this.height = height;
     }
