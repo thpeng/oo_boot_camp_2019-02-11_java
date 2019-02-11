@@ -16,4 +16,8 @@ class RectangleTest {
     @Test void area() {
         assertEquals(24.0, new Rectangle(4.0, 6.0).area());
     }
+
+    @Test void perimeter() {
+        assertEquals(20.0, new Rectangle(4.0, 6.0).perimeter());
+    }
 }
