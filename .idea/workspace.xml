@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c6b7e5b-bd2a-4c7c-80ca-21a5bfd4d971" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test/unit/ChanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/ChanceTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="3c6b7e5b-bd2a-4c7c-80ca-21a5bfd4d971" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,10 +14,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/unit/ChanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+            <state relative-caret-position="-48">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1071#1072#0" expanded="true" />
+                <element signature="e#1147#1148#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -28,13 +27,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/probability/Chance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="192">
+              <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
               <folding>
-                <element signature="e#299#300#0" expanded="true" />
                 <element signature="e#346#347#0" expanded="true" />
                 <element signature="e#588#589#0" expanded="true" />
                 <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +57,8 @@
       <list>
         <option value="$PROJECT_DIR$/test/unit/RectangleTest.java" />
         <option value="$PROJECT_DIR$/src/rectangle/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/probability/Chance.java" />
         <option value="$PROJECT_DIR$/test/unit/ChanceTest.java" />
+        <option value="$PROJECT_DIR$/src/probability/Chance.java" />
       </list>
     </option>
   </component>
@@ -161,15 +161,6 @@
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.11 at 08h 29m 59s.xml">
-      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.11 at 08h 32m 30s.xml">
-      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.11 at 08h 34m 21s.xml">
-      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.11 at 08h 35m 16s.xml">
       <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
     </history-entry>
@@ -189,6 +180,15 @@
       <configuration name="ChanceTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ChanceTest - 2019.02.11 at 11h 11m 59s.xml">
+      <configuration name="ChanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChanceTest - 2019.02.11 at 11h 42m 22s.xml">
+      <configuration name="ChanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChanceTest - 2019.02.11 at 11h 44m 08s.xml">
+      <configuration name="ChanceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ChanceTest - 2019.02.11 at 11h 44m 32s.xml">
       <configuration name="ChanceTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -258,23 +258,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/probability/Chance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="192">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding>
-            <element signature="e#299#300#0" expanded="true" />
             <element signature="e#346#347#0" expanded="true" />
             <element signature="e#588#589#0" expanded="true" />
             <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/ChanceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="-48">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
           </folding>
         </state>
       </provider>

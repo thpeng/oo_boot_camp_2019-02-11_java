@@ -7,6 +7,7 @@ package probability;
 
 // Understands the likelihood of something occurring
 public class Chance {
+    private static final double CERTAIN_FRACTION = 1.0;
     private final double fraction;
 
     public Chance(double likelihoodAsFraction) {
@@ -26,5 +27,9 @@ public class Chance {
     @Override
     public int hashCode() {
         return Double.hashCode(fraction);
+    }
+
+    public Chance not() {
+        return new Chance(CERTAIN_FRACTION - fraction);
     }
 }
