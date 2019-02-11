@@ -8,6 +8,7 @@ package probability;
 // Understands the likelihood of something occurring
 public class Chance {
     private static final double CERTAIN_FRACTION = 1.0;
+    private static final double DELTA = 0.000000001;
     private final double fraction;
 
     public Chance(double likelihoodAsFraction) {
@@ -21,7 +22,7 @@ public class Chance {
     }
 
     private boolean equals(Chance other) {
-        return this.fraction == other.fraction;
+        return Math.abs(this.fraction - other.fraction) < DELTA;
     }
 
     @Override

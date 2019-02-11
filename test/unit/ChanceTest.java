@@ -41,5 +41,6 @@ class ChanceTest {
         assertEquals(LIKELY, LIKELY.not().not());
         assertEquals(CERTAIN, IMPOSSIBLE.not());
         assertEquals(EQUALLY_LIKELY, EQUALLY_LIKELY.not());
+        assertEquals(new Chance(0.3), new Chance(0.3).not().not());
     }
 }
