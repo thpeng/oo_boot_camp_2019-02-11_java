@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c6b7e5b-bd2a-4c7c-80ca-21a5bfd4d971" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/rectangle/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rectangle/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/unit/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/RectangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oo_boot_camp_2019-02-11_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oo_boot_camp_2019-02-11_java.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,33 +17,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="RectangleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/RectangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state>
+              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rectangle/Rectangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#0#683#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/rectangle/Rectangle.java">
+      <file leaf-file-name="MeasurementTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/MeasurementTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="14" column="91" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="14" selection-end-column="91" />
+            <state>
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quantity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/measurements/Quantity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Unit.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/measurements/Unit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -54,22 +77,45 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>long</find>
+      <find>public Quantity add\(Quantity other\) \{\n        return new Quantity\(this\.amount \+ other\.amountOfTeaspoons\)\;\n   \}</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>double</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/unit/RectangleTest.java" />
         <option value="$PROJECT_DIR$/src/rectangle/Rectangle.java" />
+        <option value="$PROJECT_DIR$/test/unit/RectangleTest.java" />
+        <option value="$PROJECT_DIR$/test/unit/Gallon.java" />
+        <option value="$PROJECT_DIR$/test/unit/Quart.java" />
+        <option value="$PROJECT_DIR$/src/measurements/Quart.java" />
+        <option value="$PROJECT_DIR$/src/measurements/Gallon.java" />
+        <option value="$PROJECT_DIR$/test/unit/MeasurementTests.java" />
+        <option value="$PROJECT_DIR$/src/measurements/Measurement.java" />
+        <option value="$PROJECT_DIR$/src/measurements/Unit.java" />
+        <option value="$PROJECT_DIR$/src/measurements/Quantity.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="448" />
-    <option name="y" value="14" />
-    <option name="width" value="2744" />
-    <option name="height" value="1978" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -78,31 +124,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -110,11 +132,25 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="measurements" />
+      <recent name="unit" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,91 +164,383 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MeasurementTests">
     <configuration name="All in oo_boot_camp_2019-02-11_java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo_boot_camp_2019-02-11_java" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
+    <configuration name="MeasurementTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo_boot_camp_2019-02-11_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unit" />
+      <option name="MAIN_CLASS_NAME" value="unit.MeasurementTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MeasurementTests.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo_boot_camp_2019-02-11_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unit" />
+      <option name="MAIN_CLASS_NAME" value="unit.MeasurementTests" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MeasurementTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo_boot_camp_2019-02-11_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unit" />
+      <option name="MAIN_CLASS_NAME" value="unit.MeasurementTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MeasurementTests.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo_boot_camp_2019-02-11_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unit" />
+      <option name="MAIN_CLASS_NAME" value="unit.MeasurementTests" />
+      <option name="METHOD_NAME" value="testEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in oo_boot_camp_2019-02-11_java" />
+      <item itemvalue="JUnit.MeasurementTests.test" />
+      <item itemvalue="JUnit.MeasurementTests.testEquals" />
+      <item itemvalue="JUnit.MeasurementTests.add" />
+      <item itemvalue="JUnit.MeasurementTests" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MeasurementTests" />
+        <item itemvalue="JUnit.MeasurementTests.add" />
+        <item itemvalue="JUnit.MeasurementTests.testEquals" />
+        <item itemvalue="JUnit.MeasurementTests.test" />
         <item itemvalue="JUnit.All in oo_boot_camp_2019-02-11_java" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <created>1549878106299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549878106299</updated>
+      <workItem from="1549878108228" duration="9799000" />
+      <workItem from="1550046800159" duration="34000" />
+    </task>
+    <servers />
+  </component>
   <component name="TestHistory">
-    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.11 at 08h 29m 59s.xml">
-      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
+    <history-entry file="MeasurementTests_test - 2019.02.11 at 15h 31m 21s.xml">
+      <configuration name="MeasurementTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_oo_boot_camp_2019-02-11_java - 2019.02.11 at 08h 32m 30s.xml">
-      <configuration name="All in oo_boot_camp_2019-02-11_java" configurationId="JUnit" />
+    <history-entry file="MeasurementTests_test - 2019.02.11 at 15h 59m 55s.xml">
+      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeasurementTests_test - 2019.02.11 at 16h 01m 14s.xml">
+      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeasurementTests_test - 2019.02.11 at 16h 02m 23s.xml">
+      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeasurementTests_test - 2019.02.11 at 16h 03m 23s.xml">
+      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeasurementTests_test - 2019.02.11 at 16h 04m 29s.xml">
+      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeasurementTests_test - 2019.02.11 at 16h 10m 57s.xml">
+      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeasurementTests_test - 2019.02.11 at 16h 14m 18s.xml">
+      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeasurementTests_add - 2019.02.11 at 17h 03m 51s.xml">
+      <configuration name="MeasurementTests.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MeasurementTests - 2019.02.11 at 17h 04m 05s.xml">
+      <configuration name="MeasurementTests" configurationId="JUnit" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9833000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="224" y="7" width="1372" height="989" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25342464" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19674039" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17744917" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32902032" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25809062" />
+      <window_info anchor="bottom" id="JProfiler" order="12" />
+      <window_info anchor="bottom" id="SonarLint" order="12" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.5046211" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32902032" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info id="Designer" order="4" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info id="Image Layers" order="0" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.19408503" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.5046211" />
+      <window_info anchor="bottom" id="SonarLint" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="JProfiler" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32902032" />
+      <window_info anchor="right" id="Maven Projects" order="1" />
+      <window_info content_ui="combo" id="Project" order="2" weight="0.25809062" />
+      <window_info anchor="right" id="SciView" order="2" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="3" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oo_boot_camp_2019-02-11_java.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/RectangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="88">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rectangle/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
+        <state relative-caret-position="132">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/MeasurementTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/measurements/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/measurements/Quantity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rectangle/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
           <caret line="14" column="91" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="14" selection-end-column="91" />
           <folding>
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#0#683#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/measurements/Quart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/measurements/Gallon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rectangle/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/measurements/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/MeasurementTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/measurements/Quantity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -256,7 +584,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
