@@ -19,33 +19,16 @@ public class Unit {
     public static final Unit GALLON = new Unit(4, QUART);
 
     public static final double ABSOLUTE_ZERO_CELSIUS = -273.15;
-    public static final Unit CELSIUS = new Unit(){
-        @Override
-        public Quantity s(double amount) {
-            if(amount < ABSOLUTE_ZERO_CELSIUS){
-                throw new IllegalArgumentException(String.format("%d is less than absolute zero %d, go find another universe", amount, ABSOLUTE_ZERO_CELSIUS));
-            }
-            return super.s(amount);
-        }
-
-    };
+    public static final Unit CELSIUS = new AbsoluteBasedUnit(ABSOLUTE_ZERO_CELSIUS);
     public static final double ABSOLUTE_ZERO_FAHRENHEIT = -459.67;
 
-    public static final Unit FAHRENHEIT = new Unit(5/9.0, 32, CELSIUS){
-        @Override
-        public Quantity s(double amount) {
-            if(amount < ABSOLUTE_ZERO_FAHRENHEIT){
-                throw new IllegalArgumentException(String.format("%d is less than absolute zero %d, go find another universe", amount, ABSOLUTE_ZERO_CELSIUS));
-            }
-            return super.s(amount);
-        }
-    };
+    public static final Unit FAHRENHEIT = new AbsoluteBasedUnit(5 / 9.0, 32, CELSIUS, ABSOLUTE_ZERO_FAHRENHEIT);
 
     final Object type;
     private final double baseUnitRatio;
     private final double offset;
 
-    private Unit(){
+    private Unit() {
         this.type = this;
         baseUnitRatio = 1.0;
         offset = 0.0;
@@ -67,8 +50,9 @@ public class Unit {
         return new Quantity(amount, this);
     }
 
+
     double convertedAmount(double otherAmount, Unit other) {
-        if(this.type != other.type){
+        if (this.type != other.type) {
             throw new IllegalArgumentException("Incompatible types: " + this.type + ", " + other.type);
         }
         return (otherAmount - other.offset) * other.baseUnitRatio / this.baseUnitRatio + this.offset;
@@ -78,20 +62,27 @@ public class Unit {
         return Double.hashCode(amount * baseUnitRatio);
     }
 
-    private static class IntervalUnit extends Unit{
+
+    static class AbsoluteBasedUnit extends Unit {
         private double absoluteZero;
 
-        public IntervalUnit(double absoluteZero) {
+        public AbsoluteBasedUnit(double absoluteZero) {
             super();
             this.absoluteZero = absoluteZero;
         }
 
-        public IntervalUnit(double relativeRatio, Unit relativeUnit) {
-            super(relativeRatio, relativeUnit);
+        public AbsoluteBasedUnit(double factor, int offset, Unit unit, double absoluteZeroFahrenheit) {
+            super(factor, offset, unit);
+            this.absoluteZero = absoluteZeroFahrenheit;
         }
 
-        public IntervalUnit(double ratio, double offset, Unit relativeUnit) {
-            super(ratio, offset, relativeUnit);
+        @Override
+        public Quantity s(double amount) {
+            if (amount < absoluteZero) {
+                throw new IllegalArgumentException(String.format("%d is less than absolute zero %d, go find another universe", amount, ABSOLUTE_ZERO_CELSIUS));
+            }
+            return super.s(amount);
         }
+
     }
 }

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3c6b7e5b-bd2a-4c7c-80ca-21a5bfd4d971" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3c6b7e5b-bd2a-4c7c-80ca-21a5bfd4d971" name="Default Changelist" comment="day2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oo_boot_camp_2019-02-11_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/oo_boot_camp_2019-02-11_java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quantity/Quantity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quantity/Quantity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quantity/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/quantity/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rectangle/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rectangle/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/unit/RectangleTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,29 +21,8 @@
       <file leaf-file-name="RectangleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/unit/RectangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rectangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rectangle/Rectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#683#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MeasurementTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/unit/MeasurementTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="486">
+              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,20 +30,100 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Quantity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/measurements/Quantity.java">
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../eaio-ng/jdk/openjdk8/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="67086">
+              <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+              <folding>
+                <element signature="e#178010#178011#0" expanded="true" />
+                <element signature="e#178051#178052#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShapeSorter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rectangle/ShapeSorter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/unit/NodeTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/node/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+              <folding>
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shape.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/rectangle/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyComparable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/compare/MyComparable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Quantity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/quantity/Quantity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Unit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/measurements/Unit.java">
+        <entry file="file://$PROJECT_DIR$/src/quantity/Unit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="26" column="10" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="864">
+              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuantityTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/unit/QuantityTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="972">
+              <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -81,6 +141,7 @@
     <findStrings>
       <find>long</find>
       <find>public Quantity add\(Quantity other\) \{\n        return new Quantity\(this\.amount \+ other\.amountOfTeaspoons\)\;\n   \}</find>
+      <find>compare</find>
     </findStrings>
     <replaceStrings>
       <replace>double</replace>
@@ -92,8 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/rectangle/Rectangle.java" />
-        <option value="$PROJECT_DIR$/test/unit/RectangleTest.java" />
         <option value="$PROJECT_DIR$/test/unit/Gallon.java" />
         <option value="$PROJECT_DIR$/test/unit/Quart.java" />
         <option value="$PROJECT_DIR$/src/measurements/Quart.java" />
@@ -102,6 +161,20 @@
         <option value="$PROJECT_DIR$/src/measurements/Measurement.java" />
         <option value="$PROJECT_DIR$/src/measurements/Unit.java" />
         <option value="$PROJECT_DIR$/src/measurements/Quantity.java" />
+        <option value="$PROJECT_DIR$/test/unit/QuantityTest.java" />
+        <option value="$PROJECT_DIR$/src/quantity/Unit.java" />
+        <option value="$PROJECT_DIR$/src/quantity/Quantity.java" />
+        <option value="$PROJECT_DIR$/src/rectangle/Square.java" />
+        <option value="$PROJECT_DIR$/src/rectangle/Rectangle.java" />
+        <option value="$PROJECT_DIR$/src/rectangle/Shapre.java" />
+        <option value="$PROJECT_DIR$/src/compare/Comparator.java" />
+        <option value="$PROJECT_DIR$/src/compare/Comparable.java" />
+        <option value="$PROJECT_DIR$/src/compare/MyComparable.java" />
+        <option value="$PROJECT_DIR$/test/unit/RectangleTest.java" />
+        <option value="$PROJECT_DIR$/src/rectangle/Shape.java" />
+        <option value="$PROJECT_DIR$/src/rectangle/ShapeSorter.java" />
+        <option value="$PROJECT_DIR$/test/unit/NodeTest.java" />
+        <option value="$PROJECT_DIR$/src/node/Node.java" />
       </list>
     </option>
   </component>
@@ -111,11 +184,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="696" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-5" />
+    <option name="y" value="1" />
+    <option name="width" value="1288" />
+    <option name="height" value="683" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -124,13 +197,114 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="measurements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="node" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="probability" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="quantity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="rectangle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oo_boot_camp_2019-02-11_java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="oo_boot_camp_2019-02-11_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GO_FMT" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -144,10 +318,18 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\devsbb\workspaces\oo_boot_camp_2019-02-11_java\test\unit" />
+      <recent name="C:\devsbb\workspaces\oo_boot_camp_2019-02-11_java\src\node" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="rectangle" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="rectangle" />
       <recent name="measurements" />
       <recent name="unit" />
     </key>
@@ -164,25 +346,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MeasurementTests">
-    <configuration name="All in oo_boot_camp_2019-02-11_java" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="oo_boot_camp_2019-02-11_java" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MeasurementTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.NodeTest">
+    <configuration name="NodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo_boot_camp_2019-02-11_java" />
       <extension name="coverage">
         <pattern>
@@ -193,7 +358,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="unit" />
-      <option name="MAIN_CLASS_NAME" value="unit.MeasurementTests" />
+      <option name="MAIN_CLASS_NAME" value="unit.NodeTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -205,7 +370,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MeasurementTests.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NodeTest.hopCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo_boot_camp_2019-02-11_java" />
       <extension name="coverage">
         <pattern>
@@ -216,8 +381,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="unit" />
-      <option name="MAIN_CLASS_NAME" value="unit.MeasurementTests" />
-      <option name="METHOD_NAME" value="add" />
+      <option name="MAIN_CLASS_NAME" value="unit.NodeTest" />
+      <option name="METHOD_NAME" value="hopCount" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -228,7 +393,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MeasurementTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RectangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo_boot_camp_2019-02-11_java" />
       <extension name="coverage">
         <pattern>
@@ -239,8 +404,31 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="unit" />
-      <option name="MAIN_CLASS_NAME" value="unit.MeasurementTests" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="unit.RectangleTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="RectangleTest.areaSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="oo_boot_camp_2019-02-11_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="unit" />
+      <option name="MAIN_CLASS_NAME" value="unit.RectangleTest" />
+      <option name="METHOD_NAME" value="areaSquare" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -251,7 +439,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MeasurementTests.testEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RectangleTest.sortAreas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="oo_boot_camp_2019-02-11_java" />
       <extension name="coverage">
         <pattern>
@@ -262,8 +450,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="unit" />
-      <option name="MAIN_CLASS_NAME" value="unit.MeasurementTests" />
-      <option name="METHOD_NAME" value="testEquals" />
+      <option name="MAIN_CLASS_NAME" value="unit.RectangleTest" />
+      <option name="METHOD_NAME" value="sortAreas" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -275,19 +463,19 @@
       <patterns />
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in oo_boot_camp_2019-02-11_java" />
-      <item itemvalue="JUnit.MeasurementTests.test" />
-      <item itemvalue="JUnit.MeasurementTests.testEquals" />
-      <item itemvalue="JUnit.MeasurementTests.add" />
-      <item itemvalue="JUnit.MeasurementTests" />
+      <item itemvalue="JUnit.RectangleTest.areaSquare" />
+      <item itemvalue="JUnit.RectangleTest" />
+      <item itemvalue="JUnit.RectangleTest.sortAreas" />
+      <item itemvalue="JUnit.NodeTest" />
+      <item itemvalue="JUnit.NodeTest.hopCount" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MeasurementTests" />
-        <item itemvalue="JUnit.MeasurementTests.add" />
-        <item itemvalue="JUnit.MeasurementTests.testEquals" />
-        <item itemvalue="JUnit.MeasurementTests.test" />
-        <item itemvalue="JUnit.All in oo_boot_camp_2019-02-11_java" />
+        <item itemvalue="JUnit.NodeTest" />
+        <item itemvalue="JUnit.NodeTest.hopCount" />
+        <item itemvalue="JUnit.RectangleTest.sortAreas" />
+        <item itemvalue="JUnit.RectangleTest" />
+        <item itemvalue="JUnit.RectangleTest.areaSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -301,48 +489,56 @@
       <option name="presentableId" value="Default" />
       <updated>1549878106299</updated>
       <workItem from="1549878108228" duration="9799000" />
-      <workItem from="1550046800159" duration="34000" />
+      <workItem from="1550046800159" duration="13646000" />
+      <workItem from="1550133396106" duration="959000" />
     </task>
+    <task id="LOCAL-00001" summary="day2">
+      <created>1550046956800</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550046956800</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MeasurementTests_test - 2019.02.11 at 15h 31m 21s.xml">
-      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    <history-entry file="NodeTest_hopCount - 2019.02.13 at 16h 25m 58s.xml">
+      <configuration name="NodeTest.hopCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTests_test - 2019.02.11 at 15h 59m 55s.xml">
-      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    <history-entry file="NodeTest_hopCount - 2019.02.13 at 16h 27m 06s.xml">
+      <configuration name="NodeTest.hopCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTests_test - 2019.02.11 at 16h 01m 14s.xml">
-      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    <history-entry file="NodeTest_hopCount - 2019.02.13 at 16h 29m 13s.xml">
+      <configuration name="NodeTest.hopCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTests_test - 2019.02.11 at 16h 02m 23s.xml">
-      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    <history-entry file="NodeTest_hopCount - 2019.02.13 at 16h 30m 22s.xml">
+      <configuration name="NodeTest.hopCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTests_test - 2019.02.11 at 16h 03m 23s.xml">
-      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    <history-entry file="NodeTest_hopCount - 2019.02.13 at 16h 30m 28s.xml">
+      <configuration name="NodeTest.hopCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTests_test - 2019.02.11 at 16h 04m 29s.xml">
-      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    <history-entry file="NodeTest_hopCount - 2019.02.13 at 16h 31m 59s.xml">
+      <configuration name="NodeTest.hopCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTests_test - 2019.02.11 at 16h 10m 57s.xml">
-      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    <history-entry file="NodeTest_hopCount - 2019.02.13 at 16h 34m 36s.xml">
+      <configuration name="NodeTest.hopCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTests_test - 2019.02.11 at 16h 14m 18s.xml">
-      <configuration name="MeasurementTests.test" configurationId="JUnit" />
+    <history-entry file="NodeTest_hopCount - 2019.02.13 at 16h 35m 18s.xml">
+      <configuration name="NodeTest.hopCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTests_add - 2019.02.11 at 17h 03m 51s.xml">
-      <configuration name="MeasurementTests.add" configurationId="JUnit" />
+    <history-entry file="NodeTest_hopCount - 2019.02.13 at 16h 36m 44s.xml">
+      <configuration name="NodeTest.hopCount" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MeasurementTests - 2019.02.11 at 17h 04m 05s.xml">
-      <configuration name="MeasurementTests" configurationId="JUnit" />
+    <history-entry file="NodeTest - 2019.02.13 at 16h 36m 49s.xml">
+      <configuration name="NodeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9833000" />
+    <option name="totallyTimeSpent" value="24404000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
-    <editor active="true" />
+    <frame x="-5" y="1" width="1288" height="683" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -352,23 +548,23 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.17744917" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32902032" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30871212" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25809062" />
-      <window_info anchor="bottom" id="JProfiler" order="12" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3615635" />
       <window_info anchor="bottom" id="SonarLint" order="12" />
+      <window_info anchor="bottom" id="JProfiler" order="12" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.5046211" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39962122" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.5037879" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -376,7 +572,7 @@
       <window_info anchor="right" id="Maven" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32902032" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.15157117" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Maven" order="8" />
@@ -430,20 +626,130 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day2" />
+    <option name="LAST_COMMIT_MESSAGE" value="day2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/rectangle/ShapeSorter.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/unit/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../eaio-ng/jdk/openjdk8/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68364">
+          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+          <folding>
+            <element signature="e#178010#178011#0" expanded="true" />
+            <element signature="e#178051#178052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rectangle/ShapeSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/NodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rectangle/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="55" column="37" lean-forward="true" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compare/MyComparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/quantity/Quantity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/quantity/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/QuantityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+          <folding>
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/unit/RectangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rectangle/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/rectangle/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
-            <element signature="e#0#683#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -452,9 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -479,12 +782,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rectangle/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/rectangle/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="14" column="91" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="14" selection-end-column="91" />
           <folding>
-            <element signature="e#0#683#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -503,23 +806,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rectangle/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/RectangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/measurements/Unit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -531,16 +817,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/measurements/Quantity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/ChanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/DistanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/QuantityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="74" column="41" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/quantity/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/quantity/Quantity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rectangle/Square.java" />
+    <entry file="jar://$PROJECT_DIR$/../../eaio-ng/jdk/openjdk8/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="331" column="28" selection-start-line="331" selection-start-column="28" selection-end-line="331" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../eaio-ng/jdk/openjdk8/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../eaio-ng/jdk/openjdk8/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="147" column="44" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compare/MyComparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rectangle/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/measurements/Quantity.java">
+    <entry file="file://$PROJECT_DIR$/test/unit/RectangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="486">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../eaio-ng/jdk/openjdk8/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67086">
+          <caret line="3798" column="30" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+          <folding>
+            <element signature="e#178010#178011#0" expanded="true" />
+            <element signature="e#178051#178052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rectangle/ShapeSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/node/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
+          <folding>
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/NodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -51,4 +51,26 @@ public class Quantity {
     public Quantity subtract(Quantity other) {
         return new Quantity(this.amount - this.unit.convertedAmount(other.amount, other.unit), this.unit);
     }
+
+    static class IntervalQuantity extends Quantity {
+
+        public IntervalQuantity(double amount, Unit unit) {
+            super(amount, unit);
+        }
+
+        public IntervalQuantity(Quantity quantity) {
+            super(quantity.amount, quantity.unit);
+
+        }
+
+        @Override
+        public Quantity add(Quantity other) {
+            throw new IllegalArgumentException("won't work, sorry");
+        }
+
+        @Override
+        public Quantity subtract(Quantity other) {
+            throw new IllegalArgumentException("won't work, sorry");
+        }
+    }
 }
