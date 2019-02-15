@@ -4,6 +4,7 @@ import node.Node;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -42,7 +43,7 @@ public class NodeTest {
 
     @Test
     void hopCount() {
-        assertEquals(0, C.hopCount(C));
+       // assertEquals(0, C.hopCount(C));
         assertEquals(2, C.hopCount(B));
         assertThrows(IllegalArgumentException.class, ()-> C.hopCount(G));
         assertEquals(1, B.hopCount(F));
@@ -105,5 +106,13 @@ public class NodeTest {
         assertFalse(G.canReach(E));
         assertFalse(G.canReach(F));
         assertTrue(G.canReach(G));
+    }
+
+    @Test
+    void path(){
+        assertEquals(6.0d, C.path(B).cumulatedCosts());
+        assertEquals(7.0d, B.path(D).cumulatedCosts());
+        assertEquals(11.0d, D.path(C).cumulatedCosts());
+        assertEquals(4.0d, B.path(F).cumulatedCosts());
     }
 }
