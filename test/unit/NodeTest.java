@@ -4,7 +4,6 @@ import node.Node;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
@@ -110,9 +109,26 @@ public class NodeTest {
 
     @Test
     void path(){
-        assertEquals(6.0d, C.path(B).cumulatedCosts());
-        assertEquals(7.0d, B.path(D).cumulatedCosts());
-        assertEquals(11.0d, D.path(C).cumulatedCosts());
-        assertEquals(4.0d, B.path(F).cumulatedCosts());
+        assertEquals(6.0d, C.path(B).cost());
+        assertEquals(7.0d, B.path(D).cost());
+        assertEquals(11.0d, D.path(C).cost());
+        assertEquals(4.0d, B.path(F).cost());
+    }
+
+    @Test
+    void paths() {
+        assertEquals(2, C.paths(B).shortest().hops());
+        assertEquals(11, C.paths(B).shortest().cost());
+
+        assertEquals(3, C.paths(B).longest().hops());
+        assertEquals(6d, C.paths(B).longest().cost());
+
+        assertEquals(6d, C.paths(B).cheapest().cost());
+        assertEquals(3, C.paths(B).cheapest().hops());
+
+        assertEquals(12d, C.paths(B).mostExepensive().cost());
+        assertEquals(3, C.paths(B).mostExepensive().hops());
+
+//        assertEquals(3, C.mostExepensive().path(B).hops());
     }
 }

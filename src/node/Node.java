@@ -1,7 +1,6 @@
 package node;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Objects;
@@ -22,7 +21,7 @@ public class Node {
     }
 
     public boolean canReach(Node destination) {
-        return search(destination, Path.FEWEST_HOPS, new HashSet<>()) != null;
+        return !search(destination, new HashSet<>()).isEmpty();
     }
 
     @Override
@@ -40,48 +39,41 @@ public class Node {
 
     public int hopCount(Node destination) {
 
-        Path path = search(destination, Path.FEWEST_HOPS, new HashSet<>());
-        if (path == null) {
+        Candidates candidates = search(destination, new HashSet<>());
+        if (candidates.isEmpty()) {
             throw new IllegalArgumentException(destination + " is not reachable");
         }
-        return path.cumulatedHops();
+        return candidates.shortest().hops();
     }
 
     public Path path(Node destination) {
-        Path path = search(destination, Path.LEAST_COST, new HashSet<>());
-        if (path == null) {
+        Candidates candidates = search(destination, new HashSet<>());
+        if (candidates.isEmpty()) {
             throw new IllegalStateException("not found");
         }
-        return path;
+        return candidates.cheapest();
     }
 
-    Path search(Node destination, Comparator<Path> comparator, Set<Node> visited) {
+    Candidates search(Node destination, Set<Node> visited) {
         if (this.equals(destination)) {
-            return new Path();
+            return Candidates.create();
         }
         if (visited.contains(this)) {
-            return null;
+            return Candidates.createEmpty();
         }
         Set<Node> visited2 = new HashSet<>(visited);
         visited2.add(this);
-
-        List<Path> results = new ArrayList<>();
-        for (Edge edge : edges) {
-            results.add(edge.traverse(destination, visited2, comparator));
-        }
-        return results
-                .stream()
-                .filter(Objects::nonNull)
-                .min(comparator)
-                .orElse(null);
+        return edges.stream()
+                .map(edge -> edge.traverse(destination, visited2))
+                .reduce(Candidates.createEmpty(), (result, candidate) -> result.merge(candidate));
     }
 
     public double cost(Node destination) {
-        Path path = search(destination, Path.LEAST_COST, new HashSet<>());
-        if (path == null) {
+        Candidates candidates = search(destination, new HashSet<>());
+        if (candidates.isEmpty()) {
             throw new IllegalArgumentException(destination + " is not reachable");
         }
-        return path.cumulatedCosts();
+        return candidates.cheapest().cost();
     }
 
 
@@ -90,5 +82,9 @@ public class Node {
         return "Node{" +
                 "name='" + name + '\'' +
                 '}';
+    }
+
+    public Candidates paths(Node destination) {
+        return search(destination, new HashSet<>());
     }
 }
